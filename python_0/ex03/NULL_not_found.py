@@ -2,7 +2,7 @@ def NULL_not_found(object: any) -> int:
 
     match object:
         case False:
-           print(f"Fake: {object} {type(object)}")
+            print(f"Fake: {object} {type(object)}")
         case "":
             print(f"Empty: {object} {type(object)}")
         case 0:
@@ -10,9 +10,9 @@ def NULL_not_found(object: any) -> int:
         case None:
             print(f"Nothing: {object} {type(object)}")
         case _:
-            if type(object) is float and (object != object) :
+            if type(object) is float and (object != object):
                 print(f"Cheese: {object} {type(object)}")
-            else :
+            else:
                 print("Type not NULL_not_found")
                 return 1
     return 0

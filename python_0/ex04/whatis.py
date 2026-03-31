@@ -1,10 +1,12 @@
 import sys
 
-def odd_or_even(number : int) -> None:
+
+def odd_or_even(number: int) -> None:
     if number % 2 == 0:
         print("I'm Even.")
     else:
         print("I'm Odd.")
+
 
 def main() -> None:
     try:
@@ -22,6 +24,7 @@ def main() -> None:
     except AssertionError as e:
         print(f"AssertionError: {e}")
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

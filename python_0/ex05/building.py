@@ -18,9 +18,9 @@ def analyze_string(s: str) -> None:
 
 
 def main() -> None:
-    """Parse the command-line argument or prompt the user for input, then analyze
-    the given string and display the count of its character types."""
-    
+    """Parse the command-line argument or prompt the user for input, then
+    analyze the given string and display the count of its character types."""
+
     try:
         if len(sys.argv) > 2:
             raise AssertionError("more than one argument is provided")
@@ -29,7 +29,7 @@ def main() -> None:
             str_to_parse = sys.stdin.readline()
             if str_to_parse != "" and not str_to_parse.endswith('\n'):
                 print()
-        else :
+        else:
             str_to_parse = sys.argv[1]
         analyze_string(str_to_parse)
 

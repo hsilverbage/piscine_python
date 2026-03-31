@@ -46,6 +46,7 @@ def ft_tqdm(lst: range) -> None:  # type: ignore
 
         yield elem
 
+
 def main() -> None:
 
     for elem in ft_tqdm(range(30000)):
