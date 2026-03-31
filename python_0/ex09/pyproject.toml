@@ -5,15 +5,16 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ft_package"
 version = "0.0.1"
+requires-python = ">= 3.1"
 description = "A sample test package"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
-    { name = "eagle", email = "eagle@42.fr" }
+    { email = "hsilverb@student.42lyon.fr" }
 ]
 
 [project.urls]
-Homepage = "https://github.com/eagle/ft_package"
+Homepage = "https://github.com/hsilverbage/piscine_python/tree/main/python_0/ex09"
 
 [tool.setuptools]
 packages = ["ft_package"]
